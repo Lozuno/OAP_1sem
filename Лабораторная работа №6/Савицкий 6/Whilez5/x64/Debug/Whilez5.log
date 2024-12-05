@@ -1,0 +1,33 @@
+﻿Сборка начата 28.10.2024 0:15:42.
+Уровень детализации журнала: Normal.     1>Проект "D:\Лабы\ОАП\Лабораторная работа №6\Савицкий 6\Whilez5\Whilez5.vcxproj" в узле 4 (целевые объекты Rebuild).
+     1>_PrepareForClean:
+         Файл "x64\Debug\Whilez5.tlog\Whilez5.lastbuildstate" удаляется.
+       PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "x64\Debug\Whilez5.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\Whilez5.tlog\unsuccessfulbuild".
+       ClCompile:
+         D:\VS\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Whilez5.cpp
+         Whilez5.cpp
+     1>D:\Лабы\ОАП\Лабораторная работа №6\Савицкий 6\Whilez5\Whilez5.cpp(4,10): warning C4305: инициализация: усечение из "double" в "float"
+     1>D:\Лабы\ОАП\Лабораторная работа №6\Савицкий 6\Whilez5\Whilez5.cpp(7,11): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+       Link:
+         D:\VS\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Лабы\ОАП\Лабораторная работа №6\Савицкий 6\x64\Debug\Whilez5.exe" /INCREMENTAL /ILK:"x64\Debug\Whilez5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Лабы\ОАП\Лабораторная работа №6\Савицкий 6\x64\Debug\Whilez5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Лабы\ОАП\Лабораторная работа №6\Савицкий 6\x64\Debug\Whilez5.lib" /MACHINE:X64 x64\Debug\Whilez5.obj
+         Whilez5.vcxproj -> D:\Лабы\ОАП\Лабораторная работа №6\Савицкий 6\x64\Debug\Whilez5.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\Whilez5.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\Whilez5.tlog\Whilez5.lastbuildstate".
+     1>Сборка проекта "D:\Лабы\ОАП\Лабораторная работа №6\Савицкий 6\Whilez5\Whilez5.vcxproj" завершена (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+
+       "D:\Лабы\ОАП\Лабораторная работа №6\Савицкий 6\Whilez5\Whilez5.vcxproj" (целевой объект Rebuild ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\Лабы\ОАП\Лабораторная работа №6\Савицкий 6\Whilez5\Whilez5.cpp(4,10): warning C4305: инициализация: усечение из "double" в "float"
+         D:\Лабы\ОАП\Лабораторная работа №6\Савицкий 6\Whilez5\Whilez5.cpp(7,11): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+
+    Предупреждений: 2
+    Ошибок: 0
+
+Прошло времени 00:00:01.04
