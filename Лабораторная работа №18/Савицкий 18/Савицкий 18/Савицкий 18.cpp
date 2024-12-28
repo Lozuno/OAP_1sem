@@ -24,11 +24,13 @@ double dihot(double (*f)(double x), double a, double b) {
 	}
 	return x;
 }
-int find_alphobetical(int n,...) {
+int find_alphobetical(int n,char *a, ...) {
 	int max = 0;
-	char** ptr = (char**)(&(n)+1) ;
+	char** ptr = &a;
 	for (int i = 1; i < n; i++) {
-		if (int((ptr + max)[0]) < int((ptr + i)[0])) {
+		char* temp1 = *(ptr + max);
+		char* temp2 = *(ptr + i);
+		if (int(*(ptr + max)[0]) > int(*(ptr + i)[0])) {
 			max = i;
 		}
 	}
@@ -65,6 +67,7 @@ int main() {
 			break;
 		}
 		}
+		break;
 	}
 	case 2: {
 		int n;
@@ -80,11 +83,23 @@ int main() {
 			a[i] = new char[256];
 			cin >> a[i];
 		}
-		cout << "\nСлово с самой первой по алфовиту буквы" << " среди первых трёх: " << a[find_alphobetical(3, a[0], a[1], a[2])];
-		cout << "\nСлово с самой первой по алфовиту буквы" << " среди первых четырёх: " << a[find_alphobetical(4, a[0], a[1], a[2], a[3])];
 		cout << "\nСлово с самой первой по алфовиту буквы" << " среди первых двух: " << a[find_alphobetical(2, a[0], a[1])];
+		cout << "\nСлово с самой первой по алфовиту буквы" << " среди первых трёх: " << a[find_alphobetical(3, a[0], a[1], a[2])];
+		cout << "\nСлово с самой первой по алфовиту буквы" << " среди первых четырёх: " << a[find_alphobetical(4, a[0], a[1], a[2], a[3])] << '\n';
+		for (int i = 0; i < n - 1; i++) {
+			for (int j = n-1; j > i; j--) {
+				int t1 = find_alphobetical(2, a[j-1], a[j]);
+				if (t1 == 1) {
+					char* temp = a[j];
+					a[j] = a[j-1];
+					a[j-1] = temp;
+				}
+			}
+		}
+		for (int i = 0; i < n; i++) {
+			cout << a[i] << ' ';
+		}
 	}
 	}
-	
 	return 0;
 }
