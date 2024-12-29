@@ -22,9 +22,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 0,
           "Children": [
             {
+=======
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+>>>>>>> master
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "var-Z2.cpp",
@@ -32,7 +42,11 @@
               "RelativeDocumentMoniker": "var-Z2\\var-Z2.cpp",
               "ToolTip": "D:\\\u041B\u0430\u0431\u044B\\\u041E\u0410\u041F\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u211612\\\u0421\u0430\u0432\u0438\u0446\u043A\u0438\u0439 12\\var-Z2\\var-Z2.cpp",
               "RelativeToolTip": "var-Z2\\var-Z2.cpp",
+<<<<<<< HEAD
               "ViewState": "AQIAAGkAAAAAAAAAAAAAAHQAAAAXAAAA",
+=======
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAOAAAA",
+>>>>>>> master
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-29T09:01:15.242Z",
               "EditorCaption": ""
@@ -43,9 +57,15 @@
               "Title": "var-Z1.cpp",
               "DocumentMoniker": "D:\\\u041B\u0430\u0431\u044B\\\u041E\u0410\u041F\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u211612\\\u0421\u0430\u0432\u0438\u0446\u043A\u0438\u0439 12\\var-Z1\\var-Z1.cpp",
               "RelativeDocumentMoniker": "var-Z1\\var-Z1.cpp",
+<<<<<<< HEAD
               "ToolTip": "D:\\\u041B\u0430\u0431\u044B\\\u041E\u0410\u041F\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u211612\\\u0421\u0430\u0432\u0438\u0446\u043A\u0438\u0439 12\\var-Z1\\var-Z1.cpp",
               "RelativeToolTip": "var-Z1\\var-Z1.cpp",
               "ViewState": "AQIAAF0AAAAAAAAAAAAAAGsAAAATAAAA",
+=======
+              "ToolTip": "D:\\\u041B\u0430\u0431\u044B\\\u041E\u0410\u041F\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u211612\\\u0421\u0430\u0432\u0438\u0446\u043A\u0438\u0439 12\\var-Z1\\var-Z1.cpp*",
+              "RelativeToolTip": "var-Z1\\var-Z1.cpp*",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAAA4AAAAaAAAA",
+>>>>>>> master
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-27T22:45:34.084Z",
               "EditorCaption": ""

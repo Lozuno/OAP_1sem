@@ -13,6 +13,12 @@ int main() {
 		int n;
 		cout << "Введите размер массивов:";
 		cin >> n;
+<<<<<<< HEAD
+=======
+		for (int i = 0; i < n; i++) {
+			cin >> *(x + i);
+		}
+>>>>>>> master
 		for (int* pi = x; pi < x + n; pi++) {
 			cin >> *pi;
 		}

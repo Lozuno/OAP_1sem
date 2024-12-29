@@ -3,6 +3,21 @@
   "WorkspaceRootPath": "D:\\\u041B\u0430\u0431\u044B\\\u041E\u0410\u041F\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u211613\\\u0421\u0430\u0432\u0438\u0446\u043A\u0438\u0439 13\\",
   "Documents": [
     {
+<<<<<<< HEAD
+=======
+      "AbsoluteMoniker": "D:0:0:{D5F97602-E6F5-45D1-8C84-17F167EBA2AA}|dopi\\dopi.vcxproj|D:\\\u041B\u0430\u0431\u044B\\\u041E\u0410\u041F\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u211613\\\u0421\u0430\u0432\u0438\u0446\u043A\u0438\u0439 13\\dopi\\dopi.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5F97602-E6F5-45D1-8C84-17F167EBA2AA}|dopi\\dopi.vcxproj|solutionrelative:dopi\\dopi.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25985431-0369-4DD4-9E5C-B8AD9697EE49}|zad6-2\\zad6-2.vcxproj|D:\\\u041B\u0430\u0431\u044B\\\u041E\u0410\u041F\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u211613\\\u0421\u0430\u0432\u0438\u0446\u043A\u0438\u0439 13\\zad6-2\\zad6-2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{25985431-0369-4DD4-9E5C-B8AD9697EE49}|zad6-2\\zad6-2.vcxproj|solutionrelative:zad6-2\\zad6-2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{609FD88C-4CD6-4C87-B2FE-2689E372C5DB}|zad6-1\\zad6-1.vcxproj|D:\\\u041B\u0430\u0431\u044B\\\u041E\u0410\u041F\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u211613\\\u0421\u0430\u0432\u0438\u0446\u043A\u0438\u0439 13\\zad6-1\\zad6-1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{609FD88C-4CD6-4C87-B2FE-2689E372C5DB}|zad6-1\\zad6-1.vcxproj|solutionrelative:zad6-1\\zad6-1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+>>>>>>> master
       "AbsoluteMoniker": "D:0:0:{AE9E65FC-CF10-47BA-BE37-48EA321FC703}|\u0421\u0430\u0432\u0438\u0446\u043A\u0438\u0439 13\\\u0421\u0430\u0432\u0438\u0446\u043A\u0438\u0439 13.vcxproj|D:\\\u041B\u0430\u0431\u044B\\\u041E\u0410\u041F\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u211613\\\u0421\u0430\u0432\u0438\u0446\u043A\u0438\u0439 13\\\u0421\u0430\u0432\u0438\u0446\u043A\u0438\u0439 13\\nevar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{AE9E65FC-CF10-47BA-BE37-48EA321FC703}|\u0421\u0430\u0432\u0438\u0446\u043A\u0438\u0439 13\\\u0421\u0430\u0432\u0438\u0446\u043A\u0438\u0439 13.vcxproj|solutionrelative:\u0421\u0430\u0432\u0438\u0446\u043A\u0438\u0439 13\\nevar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -23,15 +38,63 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
+=======
+              "Title": "dopi.cpp",
+              "DocumentMoniker": "D:\\\u041B\u0430\u0431\u044B\\\u041E\u0410\u041F\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u211613\\\u0421\u0430\u0432\u0438\u0446\u043A\u0438\u0439 13\\dopi\\dopi.cpp",
+              "RelativeDocumentMoniker": "dopi\\dopi.cpp",
+              "ToolTip": "D:\\\u041B\u0430\u0431\u044B\\\u041E\u0410\u041F\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u211613\\\u0421\u0430\u0432\u0438\u0446\u043A\u0438\u0439 13\\dopi\\dopi.cpp",
+              "RelativeToolTip": "dopi\\dopi.cpp",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAAAIoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-13T12:47:26.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "zad6-2.cpp",
+              "DocumentMoniker": "D:\\\u041B\u0430\u0431\u044B\\\u041E\u0410\u041F\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u211613\\\u0421\u0430\u0432\u0438\u0446\u043A\u0438\u0439 13\\zad6-2\\zad6-2.cpp",
+              "RelativeDocumentMoniker": "zad6-2\\zad6-2.cpp",
+              "ToolTip": "D:\\\u041B\u0430\u0431\u044B\\\u041E\u0410\u041F\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u211613\\\u0421\u0430\u0432\u0438\u0446\u043A\u0438\u0439 13\\zad6-2\\zad6-2.cpp",
+              "RelativeToolTip": "zad6-2\\zad6-2.cpp",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAC0AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-13T12:11:15.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "zad6-1.cpp",
+              "DocumentMoniker": "D:\\\u041B\u0430\u0431\u044B\\\u041E\u0410\u041F\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u211613\\\u0421\u0430\u0432\u0438\u0446\u043A\u0438\u0439 13\\zad6-1\\zad6-1.cpp",
+              "RelativeDocumentMoniker": "zad6-1\\zad6-1.cpp",
+              "ToolTip": "D:\\\u041B\u0430\u0431\u044B\\\u041E\u0410\u041F\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u211613\\\u0421\u0430\u0432\u0438\u0446\u043A\u0438\u0439 13\\zad6-1\\zad6-1.cpp",
+              "RelativeToolTip": "zad6-1\\zad6-1.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-13T12:03:00.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+>>>>>>> master
               "Title": "nevar.cpp",
               "DocumentMoniker": "D:\\\u041B\u0430\u0431\u044B\\\u041E\u0410\u041F\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u211613\\\u0421\u0430\u0432\u0438\u0446\u043A\u0438\u0439 13\\\u0421\u0430\u0432\u0438\u0446\u043A\u0438\u0439 13\\nevar.cpp",
               "RelativeDocumentMoniker": "\u0421\u0430\u0432\u0438\u0446\u043A\u0438\u0439 13\\nevar.cpp",
               "ToolTip": "D:\\\u041B\u0430\u0431\u044B\\\u041E\u0410\u041F\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u211613\\\u0421\u0430\u0432\u0438\u0446\u043A\u0438\u0439 13\\\u0421\u0430\u0432\u0438\u0446\u043A\u0438\u0439 13\\nevar.cpp",
               "RelativeToolTip": "\u0421\u0430\u0432\u0438\u0446\u043A\u0438\u0439 13\\nevar.cpp",
+<<<<<<< HEAD
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-04T21:12:56.167Z",
               "EditorCaption": ""
+=======
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-04T21:12:56.167Z"
+>>>>>>> master
             }
           ]
         }

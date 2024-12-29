@@ -1,15 +1,22 @@
-﻿#include <iostream>
+﻿#include <stdio.h>
 void main()
 {
-    int num = 7;
-    char symb, new_symbol = ' ';
-    char* pc;  pc = &symb;
-    *pc = num + '0';  std::cout << *pc << ' ';
-    if (symb >= '0' && symb <= '9')
-        num = symb - '0';
-    std::cout << num << ' ';
-    symb = 'h';
-    if (symb >= 'a' && symb <= 'z')
-        new_symbol = symb - 'a' + 'A';
-    std::cout << new_symbol << ' ';
+	char s[256];
+	int i, count;
+	puts("Enter string: ");
+	gets_s(s);
+	if (s[0] != '(') {
+		puts("Not Ok\n");
+		return;
+	}
+	for (count = i = 0; s[i] != 0; i++)
+	{
+		if (s[i] == '(')  count++;
+		if (s[i] == ')')  count--;
+	}
+	if (!count)
+		puts("Ok\n");
+	else
+		puts("Not Ok\n");
 }
+
