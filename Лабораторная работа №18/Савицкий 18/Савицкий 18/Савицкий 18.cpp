@@ -24,7 +24,7 @@ double func6_1(double x) {
 	return 2 - pow(x, 2) + x;
 }
 double func6_2(double x) {
-	return pow(sin(x), 2) + 0, 2;
+	return (pow(sin(x), 2) + 0.2);
 }
 double dihot(double (*f)(double x), double a, double b) {
 	double x;

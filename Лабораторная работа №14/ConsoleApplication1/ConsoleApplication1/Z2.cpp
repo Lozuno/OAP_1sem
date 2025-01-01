@@ -2,9 +2,9 @@
 using namespace std;
 int main() {
 	setlocale(LC_ALL, "rus");
+	int a[10][10];
 	int n, m;
 	cin >> n >> m;
-	int a[10][10];
 	int i1 = -1;
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < m; j++) {
