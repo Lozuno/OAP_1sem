@@ -4,7 +4,7 @@ void Z10_1(int* a, int  n);
 void Z10_2(int** a, int n, int m);
 float* Z13_1(float* a, int n);
 void Z13_2(int** a, int n);
-int* Z7_1(int* a);
+long long* Z7_1(int* a);
 void Z7_2(int** a, int n, int m);
 void Z2_1(int* a, int n,int k);
 int* Z2_2(int** a, int n, int m);
@@ -89,11 +89,13 @@ int main() {
 		switch (part) {
 		case 1: {
 			int a[15];
+			cout << "Массив: \n";
 			for (int i = 0; i < 15; i++) {
 				a[i] = rand() % 200 + 1;
+				cout << a[i] << ' ';
 			}
-			int sum = *Z7_1(a);
-			cout << "Произведение 2-7 элементов:" << sum;
+			long long sum = *(Z7_1(a));
+			cout << "\nПроизведение 2-7 элементов:" << sum;
 			return 0;
 		}
 		case 2: {
@@ -210,9 +212,9 @@ void Z13_2(int** a, int n) {
 	}
 	return;
 }
-int* Z7_1(int* a) {
-	int sum = 1;
-	int* ptr = &sum;
+long long* Z7_1(int* a) {
+	long long sum = 1;
+	long long* ptr = &sum;
 	for (int i = 2; i <= 7; i++) {
 		sum *= a[i];
 	}
@@ -222,7 +224,7 @@ void Z7_2(int** a, int n, int m) {
 	int ans = 0;
 	for (int j = 0; j < m; j++) {
 		for (int i = 0; i < n; i++) {
-			if (a[i][j] > 0) {
+			if (a[i][j] >= 0) {
 				ans = 0;
 				break;
 			}
@@ -237,6 +239,7 @@ void Z7_2(int** a, int n, int m) {
 		cout << "Нет столбца из отрицательных элементов";
 		return;
 	}
+	cout << "\n";
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < m; j++) {
 			a[i][j] -= ans;

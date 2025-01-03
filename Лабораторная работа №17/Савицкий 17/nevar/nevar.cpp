@@ -27,4 +27,3 @@ bool is_elem(int* pA, int n, int iV)
 		}
 	return bf;
 }
-
